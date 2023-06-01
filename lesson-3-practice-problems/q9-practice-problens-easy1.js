@@ -9,3 +9,9 @@ let flintstones = ['Fred', 'Barney', 'Wilma', 'Betty', 'Bambam', 'Pebbles'];
 flintstones = [...flintstones, 'Dino', 'Hoppy']; //using the <...> spread operator
 
 console.log(flintstones);
+
+/* LS 
+let flintstones = ["Fred", "Barney", "Wilma", "Betty", "Bambam", "Pebbles"];
+flintstones.push("Dino", "Hoppy");   // we can pass multiple arguments to push
+flintstones; // => [ 'Fred', 'Barney', 'Wilma', 'Betty', 'Bambam', 'Pebbles', 'Dino', 'Hoppy' ]
+*/

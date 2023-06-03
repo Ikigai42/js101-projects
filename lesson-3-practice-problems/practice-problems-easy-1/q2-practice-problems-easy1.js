@@ -23,7 +23,7 @@ console.log(str1.charAt(str1.length - 1)); // returns last character
 console.log(str1Chars.pop() === '!'); // true
 
 console.log(str2Chars);
-console.log(str2Chars.pop() === '!'); // false
+console.log(str2Chars.pop() === '!'); // false => Mutates string
 
 //LS answer
 str1.endsWith('!'); // true
